@@ -4,6 +4,24 @@ import { AddNewParticipantToFirstStage, CreateParticipantForm, CreateSingleElimi
 
 export default function Home() {
   // CSS properties for the layout and large components
+  console.log("Home component rendering...");
+  useEffect(() => {
+    console.log("useEffect is running...");
+  
+    const intervalId = setInterval(() => {
+      // Generate random colors or fetch colors from an API
+      const newColors = {
+        // ...color properties
+      };
+      setColors(newColors);
+    }, 2000);
+  
+    return () => {
+      console.log("Cleaning up useEffect...");
+      clearInterval(intervalId);
+    };
+  }, []);
+  
   const layoutStyles = {
     position: 'relative',
   };

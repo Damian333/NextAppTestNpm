@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -H 0.0.0.0 -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
+    "@playoxygen/react-bravatars-web": "^1.0.13",
     "autoprefixer": "10.4.15",
     "customize-cra": "^1.0.0",
     "next": "^13.4.19",
@@ -18,5 +19,8 @@
     "react-native-module-template": "^2.5.1",
     "react-native-web": "^0.19.8",
     "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10"
   }
 }
