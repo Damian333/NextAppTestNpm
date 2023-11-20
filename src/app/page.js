@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { ExampleComponent } from '@playoxygen/react-bravatars-web';
+import { AddNewParticipantToFirstStage, CreateParticipantForm, CreateSingleEliminationTournament, TorunamentBracket, RankTournamentTable } from '@playoxygen/react-bravatars-web';
 
 export default function Home() {
   // CSS properties for the layout and large components
@@ -86,7 +86,21 @@ export default function Home() {
           CLICK ME
         </button> */}
         {/* <ExampleComponent apiUrl='http://localhost:4000/api'/> */}
-        <ExampleComponent apiUrl='https://klic-brkt-staging.fly.dev/'/>
+        <div style={{ padding: '100px', display: 'flex' }}>
+            <TorunamentBracket apiUrl='https://klic-brkt-staging.fly.dev/api/' />
+        </div>
+        <CreateParticipantForm apiUrl='https://klic-brkt-staging.fly.dev/api/' />
+        <CreateSingleEliminationTournament
+          apiUrl="https://klic-brkt-staging.fly.dev/api/"
+          onSuccess={(tournament) => {
+            // Your callback logic here
+            console.log("Tournament created:", tournament);
+            console.log("Tournament created:", tournament.id);
+            // You can use this data as needed
+          }}
+        />
+        <AddNewParticipantToFirstStage apiUrl='https://klic-brkt-staging.fly.dev/api/' />
+        <RankTournamentTable apiUrl='https://klic-brkt-staging.fly.dev/api/' /> 
         {/* <button>
           CLICK ME
         </button>
