@@ -7,7 +7,7 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@apollo/client@^3.8.3":
+"@apollo/client@^3.8.7":
   version "3.8.7"
   resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.8.7.tgz#090b1518f513503b9a6a690ee3eaec49529822e1"
   integrity sha512-DnQtFkQrCyxHTSa9gR84YRLmU/al6HeXcLZazVe+VxKBmx/Hj4rV8xWtzfWYX5ijartsqDR7SJgV037MATEecA==
@@ -67,10 +67,10 @@
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-8.3.1.tgz#7753df0cb88d7649becf984a96dd1bd0a26f43e3"
   integrity sha512-FdgpFxY6V6rLZE9mmIBb9hM0xpfvQOSNOLnzolzKwsE1DH+gC7lEKV1p1IbR0lAYyvYd5a4u3qWJzowUkw1bIw==
 
-"@flydotio/dockerfile@^0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@flydotio/dockerfile/-/dockerfile-0.4.10.tgz#30bfdbd8ee6664310cc97ee2738efc93732af0d7"
-  integrity sha512-cyxxVTzPX7qRD3/yq24eiIsSKlUFPcBjbIQmWeuXn3qS2rSdYMioUmDISchfGE7S75cEdL/baK0AJP2q7+aw6w==
+"@flydotio/dockerfile@^0.4.11":
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/@flydotio/dockerfile/-/dockerfile-0.4.11.tgz#e3b9467ddb4840f148aaf645a800aa327a46de66"
+  integrity sha512-L52UAfrOhmAn3T4TxpeRofQOSO+Kctg+uraB4nLzo4mvvh+4Z7HYxSi7Dnq0Kirz+xx6fDIc4OMNT1EdaORecA==
   dependencies:
     chalk "^5.3.0"
     diff "^5.1.0"
@@ -186,20 +186,20 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@playoxygen/react-bravatars-web@^1.0.13":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@playoxygen/react-bravatars-web/-/react-bravatars-web-1.0.14.tgz#fa24c8e1dafca45ababf6f854c7d684fb2aa6e38"
-  integrity sha512-qWCNn3XtSPMJn303U2mThX1kaSkeLUQMqZOPFYCWiWnVH/NrvZ78lyRr8BnIv4D6pSamjrLwfxwTNKhbJgCRLA==
+"@playoxygen/react-bravatars-web@^1.0.16":
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@playoxygen/react-bravatars-web/-/react-bravatars-web-1.0.16.tgz#375fd793a367ee77acbd026b90ade0b2f7194857"
+  integrity sha512-RrN9Gs+O5ZbHOa6LeUuia0R3jNVHyKG8wtgvIyzXr3wjkeoDFyZkNnycSSdbiLVm/CLIWChlvm7qohY3gRU6jA==
   dependencies:
-    "@apollo/client" "^3.8.3"
+    "@apollo/client" "^3.8.7"
     "@faker-js/faker" "^8.0.2"
     "@tippy.js/react" "^3.1.1"
-    framer-motion "^10.16.4"
+    framer-motion "^10.16.5"
     graphql "^16.8.0"
     react-draggable "^4.4.5"
     react-swipeable "^7.0.1"
     react-xarrows "^2.0.2"
-    styled-components "^6.0.7"
+    styled-components "^6.1.1"
 
 "@react-native/normalize-color@^2.1.0":
   version "2.1.0"
@@ -579,7 +579,7 @@ fraction.js@^4.2.0:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.3.7.tgz#06ca0085157e42fda7f9e726e79fefc4068840f7"
   integrity sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==
 
-framer-motion@^10.16.4:
+framer-motion@^10.16.5:
   version "10.16.5"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.16.5.tgz#f1ad625adf213a8906f1ea52a31a4ef222f056d5"
   integrity sha512-GEzVjOYP2MIpV9bT/GbhcsBNoImG3/2X3O/xVNWmktkv9MdJ7P/44zELm/7Fjb+O3v39SmKFnoDQB32giThzpg==
@@ -1188,7 +1188,7 @@ strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   dependencies:
     ansi-regex "^5.0.1"
 
-styled-components@^6.0.7:
+styled-components@^6.1.1:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-6.1.1.tgz#a5414ada07fb1c17b96a26a05369daa4e2ad55e5"
   integrity sha512-cpZZP5RrKRIClBW5Eby4JM1wElLVP4NQrJbJ0h10TidTyJf4SIIwa3zLXOoPb4gJi8MsJ8mjq5mu2IrEhZIAcQ==
